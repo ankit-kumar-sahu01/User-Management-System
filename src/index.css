@@ -1,0 +1,20 @@
+/* Apply to the entire body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Beautiful gradient */
+  background-attachment: fixed; /* Fix the background */
+  color: white; /* Default text color */
+  min-height: 100vh; /* Ensure the background covers the entire page */
+}
+
+/* Ensure all pages have a consistent background */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
